@@ -1,0 +1,57 @@
+﻿body, html
+{
+    height: 100%
+}
+body {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #ece0e0;
+    
+}
+
+.intro-left {
+    background: url(../image/background1.jpg);
+    position:fixed;
+    left:0;
+    height:100%;
+    width: 33.3333%
+}
+
+@media(max-width:768px){
+    .intro-left{
+        height: 50vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+
+}
+.my{
+    width: 10rem;
+    height:9rem;
+    border-radius:50%;
+    margin:1rem;
+
+}
+
+.full-height{
+    height:100%;
+}
+
+.intro{
+    color:black;
+    font-weight:300;
+    font-style: italic;
+}
+
+.panel-right{
+    background-color:#dedada;
+}
+
+.background {
+    background-color: black;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(33% 9%, 72% 9%, 84% 45%, 76% 83%, 29% 83%, 18% 45%);
+}
